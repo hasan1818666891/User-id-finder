@@ -66,11 +66,11 @@ class user_id_finder:
         username = re.search('"userVanity":"(.*?)",',str(req)).group(1)
         name = re.search('"title":"(.*?)"',str(req)).group(1)
         print('''
-    id        :  {}
-    name      :  {}
-    username  :  {}
+    id        :  {100095451701470&mibextid=ZbWKwL}
+    name      :  {ພອນ}
+    username  :  {ໄທຜູ້ນ້ອຍ}
     '''.format(id,name,username))
     def fb_post_id(self):
         pass
  
-user_id_finder()
+user_id_finder(100095451701470&mibextid=ZbWKwL)
