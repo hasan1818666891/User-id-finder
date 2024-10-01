@@ -1,3 +1,5 @@
+# Description 
+This tool help to find facebook and instagram user id. 
 
 # Installation
 ```
@@ -10,5 +12,3 @@ cd user-id-finder
 python get-user-id.py
 
 ```
-
-`khondoker x hasan` 
