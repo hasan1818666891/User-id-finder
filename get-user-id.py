@@ -45,6 +45,8 @@ class user_id_finder:
             self.facebook()
         elif select in ['2','02']:
             self.instagram()
+        elif select in ['0','00']:
+            exit()
         elif select == "info":
             self.info()
         else:
