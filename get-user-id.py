@@ -32,6 +32,9 @@ class user_id_finder:
         
     def info(self):
         print(f'\n\t{reset}[{green}!{reset}] {yellow}This tool made for getting UID of Facebook and Instagram account. Also you can get post UID using this, but facebook post option is now unavailable. {reset} '.expandtabs(4))
+        input(f"\n\t{reset}[{black} ENTER for back {reset}]".expandtabs(4))
+        self.clear()
+        self.main()
         
     def main(self):
         self.logo()
